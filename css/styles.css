@@ -256,12 +256,14 @@ p {
 }
 
 .content {
-  margin: 20px 24px;
+  padding: 20px 24px;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
 
 .projects .list-item {
   max-width: calc((100% - 60px) / 3);
-  border: 1px solid #eeeeee;
 }
 
 .projects .list-item:not(:nth-last-child(-n + 3)) {
@@ -284,7 +286,6 @@ p {
 
 /* стилизація футера */
 
-/* нічого ж не видно - білий текст на білому фоні */
 .page-footer {
   background-color: var(--dark-bgc);
   padding-top: 60px;
